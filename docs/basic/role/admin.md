@@ -1,0 +1,11 @@
+* 下訂前
+    * [建立訂單](../../before_order/setup.md)
+    * [報價](../../before_order/quote.md)
+* 下訂後
+    * [確認製程，生產前準備](../../after_order/prepare.md)
+    * [收到確認製作通知或直接下訂舊工件](../../after_order/receive.md)
+    * 出貨（倉管）
+        * [決定要出哪些貨](../../after_order/shipping.md#1-)
+        * [列印銷貨單](../../after_order/shipping.md#2-)
+* 結案
+* 不定期發生

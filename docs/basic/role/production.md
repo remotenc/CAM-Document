@@ -1,0 +1,10 @@
+* 下訂前
+* 下訂後
+    * [確認製程，生產前準備](../../after_order/prepare.md)
+    * 出貨（倉管）
+        * [決定要出哪些貨](../../after_order/shipping.md/#1-)
+        * [列印銷貨單](../../after_order/shipping.md/#2-)
+* 結案
+* 不定期發生
+    * [確認交期](../../irregularly/confirm_date.md)
+    * [確認庫存](../../irregularly/confirm_stock.md)

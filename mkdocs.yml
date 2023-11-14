@@ -1,0 +1,113 @@
+site_name: RemoteNC CAM 使用說明
+site_author: RemoteNC
+copyright: '&copy; 2023 RemoteNC'
+theme:
+  language: zh-TW
+  name: material
+  logo: assets/my_app_icon.png
+  favicon: assets/my_app_icon.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.tracking
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.sections
+    - navigation.expand
+    - navigation.path
+    # - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    # - toc.integrate
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  # - 快速開始: start/start.md
+  - 基礎知識:
+    - 基本名詞說明: index.md
+    - 訂單狀態: basic/order_state.md
+    - 分工方式: basic/mode.md
+    - 角色分工:
+      - 行政: basic/role/admin.md
+      - 業務: basic/role/business.md
+      - 生管: basic/role/production.md
+      - 倉管: basic/role/warehouse.md
+      - 財務: basic/role/finance.md
+      - 司機: basic/role/driver.md
+      - 非行政人員: basic/role/not_admin.md
+  - 下訂前: 
+    # - 總覽: before_order/all.md
+    - 建立訂單（行政）: before_order/setup.md
+    - 審圖估價（業務）: before_order/pricing.md
+    - 報價（行政）: before_order/quote.md
+  - 下訂後（備料、製作、出貨）: 
+    # - 總覽: after_order/all.md
+    - 一般流程:
+      - 收到確認製作通知（行政） 或 直接下訂舊工件: after_order/receive.md
+      - 確認製程，生產前準備（業務/生管）: after_order/prepare.md
+      - 備料製程: after_order/ready.md
+      - 外發製程（委外車、銑、市購等）: after_order/outsourcing.md
+      - 非行政人員的報工:
+        - 程式工作單（選配）: after_order/not_admin/code.md
+        - 加工工作單: after_order/not_admin/machining.md
+      - 倉管（倉管）: after_order/warehousing.md
+      - 廠驗/包裝（倉管）: after_order/package.md
+      - 出貨（倉管）: after_order/shipping.md
+    - 異常流程:
+      - 工件製作數量變更: after_order/abnormal/produce_change.md
+      - 客戶退貨或出貨後更改價格: after_order/abnormal/change_price.md
+      - 調整工作單數量: after_order/abnormal/sheet_change.md
+      - 出現廢品: after_order/abnormal/broken.md
+  - 結案:
+    # - 總覽: close/all.md
+    - 月結、請款（財務）: close/collect.md
+
+  - 不定期發生:
+    # - 總覽: irregularly/all.md
+    - 確認交期（生管）: irregularly/confirm_date.md
+    - 接單時，確認交期是否趕得上: irregularly/if_catch.md
+    - 確認庫存（生管）: irregularly/confirm_stock.md
+
+markdown_extensions:
+  - attr_list
+
+plugins:
+  - offline
+  - search
+  - mkdocs-video
+      # css_style:
+      #   width: "50%"
+extra_css:
+  - document.css
+extra_javascript:
+  - document.js
+extra:
+  # homepage: https://cam.remotenc.com/document
+  homepage: ./index.html
+  analytics:
+    provider: google
+    property: G-G2RQP7PWXC
+ 

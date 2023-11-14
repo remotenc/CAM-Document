@@ -1,0 +1,101 @@
+site_name: Open CS Application
+site_author: 'OpenCSApp'
+copyright: '&copy; 2022-2023 OpenCSApp'
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+  - scheme: default
+    primary: blue
+    accent: amber
+  features:
+    - content.action.edit
+    - content.code.copy
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - toc.follow
+    - search.highlight
+    - announce.dismiss
+  favicon: images/logo.png
+  icon:
+    logo: material/school
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - meta
+  - attr_list
+  - md_in_html
+  - admonition
+  - tables
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+  - social
+  - glightbox:
+      loop: true
+      zoomable: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+
+nav:
+  - Open CS Application:
+    - Home: index.md
+    - 内容征集: contribute.md
+    - 使用指南: guide.md
+    - 选校梯度: grade.md
+$programs_list
+    - Blog: blog.md
+    - PhD申请: phdinfo.md
+    - FAQ: faq.md
+    - 外部链接: link.md
+    - CS选校之禅: zen.md
+    - 赞赏计划: sponsor.md
+  - 项目信息表: program_info.md
+  - DataPoints&copy: datapoints.md
+  - DataPoints&copy提交:
+    - Home: submit.md
+    - DataPoints收集表: newdatapoints.md
+    - Progress收集表: newprogress.md
+    - Visa收集表: newvisa.md
+    - 申请者信息收集表: newapplicant.md
+    - 添加新项目: newprogram.md
+extra:
+  homepage: /grade/
+  social:
+    - icon: fontawesome/brands/qq
+      link: https://jq.qq.com/?_wv=1027&k=yAmXwWYl
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/HeB9QXZdFR
+  analytics:
+    provider: google
+    property: G-MWWFQ6MJG4
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - manage 
+repo_url: https://github.com/opencsapp/opencsapp.github.io
+repo_name: opencsapp
+edit_uri: edit/master/docs/
+extra_css:
+  - stylesheets/extra.css
