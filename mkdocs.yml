@@ -23,7 +23,7 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
   features:
-    # - navigation.instant
+    - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
     # - navigation.tracking
@@ -95,7 +95,7 @@ markdown_extensions:
   - attr_list
 
 plugins:
-  - offline
+  # - offline
   - search
   - mkdocs-video
       # css_style:
