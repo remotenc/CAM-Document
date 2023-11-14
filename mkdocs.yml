@@ -107,7 +107,7 @@ extra_javascript:
 extra:
   # homepage: https://cam.remotenc.com/document
   homepage: ./index.html
-  analytics:
-    provider: google
-    property: G-G2RQP7PWXC
+  # analytics:
+  #   provider: google
+  #   property: G-G2RQP7PWXC
  
