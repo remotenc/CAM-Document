@@ -92,6 +92,7 @@ nav:
     - 確認庫存（生管）: irregularly/confirm_stock.md
 
 markdown_extensions:
+# video調大小需要使用
   - attr_list
 
 plugins:
@@ -107,7 +108,6 @@ extra_javascript:
 extra:
   # homepage: https://cam.remotenc.com/document
   homepage: ./index.html
-  # analytics:
-  #   provider: google
-  #   property: G-G2RQP7PWXC
- 
+  analytics:
+    provider: google
+    property: G-VZS0FTG68F
