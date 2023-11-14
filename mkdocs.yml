@@ -1,5 +1,6 @@
 site_name: RemoteNC CAM 使用說明
 site_author: RemoteNC
+site_url: https://docs.remotenc.com
 copyright: '&copy; 2023 RemoteNC'
 theme:
   language: zh-TW
