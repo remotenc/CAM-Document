@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-![type:video](https://www.youtube.com/embed/r64c4l_D4Oo){: style='width: 560px; height: 315px;'}
+![type:video](https://www.youtube.com/embed/-KRV__Q6G_w){: style='width: 560px; height: 315px;'}
 
 4. 包裝工件
     9. 掃描工件資訊卡上的 QRCode
