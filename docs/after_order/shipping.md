@@ -1,6 +1,6 @@
 
 
-![type:video](https://www.youtube.com/embed/PCOUXvT3bgs){: style='width: 560px; height: 315px;'}
+![type:video](https://www.youtube.com/embed/deLDSZJ_-3Y){: style='width: 560px; height: 315px;'}
 
 #### 1. 決定要出哪些貨 - 生管/行政
 

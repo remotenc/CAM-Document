@@ -2,7 +2,7 @@
 hide:
   - toc
 ---
-![type:video](https://www.youtube.com/embed/LKeyGoCc3kA){: style='width: 560px; height: 315px;'}
+![type:video](https://www.youtube.com/embed/8JJXfpJ-N4Q){: style='width: 560px; height: 315px;'}
 
 
 1. （審圖或新增叫料單頁面中）完整填寫材料、邊界盒、表處、毛胚大小、預估時間等資訊

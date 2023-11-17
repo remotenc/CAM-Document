@@ -22,4 +22,4 @@ hide:
         9. 若包含超過一個工件，則代表應當建立為兩個料號，使用 CAD 拆圖後，重新上傳，建立兩個料號
 4. **_修改訂單頁面 或 [訂單列表](https://cam.remotenc.com/order_list/) 頁面_**
 5. 將訂單狀態調整為「等待估價」或「確認下訂」
-![type:video](https://www.youtube.com/embed/FEzmF4zi2Mk){: style='width: 560px; height: 315px;'}
+![type:video](https://www.youtube.com/embed/9GLDUrmS8qU){: style='width: 560px; height: 315px;'}

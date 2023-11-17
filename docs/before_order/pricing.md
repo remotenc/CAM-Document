@@ -2,7 +2,7 @@
 hide:
   - toc
 ---
-![type:video](https://www.youtube.com/embed/3x2s45DzGBo){: style='width: 560px; height: 315px;'}
+![type:video](https://www.youtube.com/embed/X7_du4lu67Y){: style='width: 560px; height: 315px;'}
 
 1. **_[訂單列表](https://cam.remotenc.com/order_list/) 頁面_**
     1. 找尋「可報價」訂單，進入該訂單細節頁面，使用生成報價單功能

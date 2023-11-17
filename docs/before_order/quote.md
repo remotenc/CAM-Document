@@ -2,7 +2,7 @@
 hide:
   - toc
 ---
-![type:video](https://www.youtube.com/embed/XJibhSkAWYQ){: style='width: 560px; height: 315px;'}
+![type:video](https://www.youtube.com/embed/mf5nOM8GIfg){: style='width: 560px; height: 315px;'}
 
 1. **_[訂單列表](https://cam.remotenc.com/order_list/) 頁面_**
     1. 找狀態為「等待估價」的訂單

@@ -2,7 +2,7 @@
 hide:
   - toc
 ---
-![type:video](https://www.youtube.com/embed/qpFfeoL33wY){: style='width: 560px; height: 315px;'}
+![type:video](https://www.youtube.com/embed/ky8tkGhlBu8){: style='width: 560px; height: 315px;'}
 
 
 1. 將信件截圖、回簽報價單或客戶採購單存入訂單附檔，並將訂單狀態更新為「確認下訂」
