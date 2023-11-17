@@ -49,6 +49,7 @@ nav:
   # - 快速開始: start/start.md
   - 基礎知識:
     - 基本名詞說明: index.md
+    - 教學影片清單: basic/video.md
     - 訂單狀態: basic/order_state.md
     - 分工方式: basic/mode.md
     - 角色分工:
